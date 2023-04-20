@@ -135,6 +135,7 @@ public abstract class AbstractSAML2MessageSender<T extends SAMLObject> implement
                 logger.debug("Signing SAML2 outbound context...");
                 final var handler = new
                     SAMLOutboundProtocolMessageSigningHandler();
+                handler.initialize();
                 handler.setSignErrorResponses(this.signErrorResponses);
                 handler.invoke(messageContext);
             }
