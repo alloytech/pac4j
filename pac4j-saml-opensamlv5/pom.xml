@@ -11,6 +11,7 @@
     <artifactId>pac4j-saml-opensamlv5</artifactId>
     <packaging>jar</packaging>
     <name>pac4j: Java web security for SAML (OpenSAML v5)</name>
+    <version>5.7.7-alloy</version>
 
     <properties>
         <opensaml.version>5.0.0</opensaml.version>
@@ -37,6 +38,7 @@
         <dependency>
             <groupId>org.pac4j</groupId>
             <artifactId>pac4j-core</artifactId>
+            <version>5.7.7</version>
         </dependency>
         <dependency>
             <groupId>org.opensaml</groupId>
@@ -208,6 +210,7 @@
             <artifactId>pac4j-core</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
+            <version>5.7.7</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
